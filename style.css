@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+}
+
+header{
+    position: fixed;
+}
+
+#header-img{
+    position: relative;
+}
+
+.turacc{
+    position: relative;
+}
+
+#nav-bar{
+    position: fixed;
+
+}
+
+.experience{
+    text-decoration: none;
+}
+
+@media screen (max-width: 500px){
+
+    body{
+        background-color: lightgray;
+    }
+}
