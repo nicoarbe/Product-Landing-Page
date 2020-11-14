@@ -1,31 +1,45 @@
 body{
-    text-align: center;
+    text-align: ;
 }
 
 header{
     position: fixed;
+    display: flex;
+    z-index: 1;
 }
 
 #header-img{
-    position: relative;
+    width: 90%;
 }
 
 .turacc{
-    position: relative;
+    text-align: center;
+    padding-top: 200px;
 }
 
-#nav-bar{
-    position: fixed;
-
+.videoacc{
+    padding-top: 30px;   
 }
 
 .experience{
-    text-decoration: none;
+    text-align: center;
 }
 
-@media screen (max-width: 500px){
+.exp{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
+p{
+    padding-bottom: 20px;
+}
+
+.form{
+    text-align: center;
+}
+
+@media (max-width: 575px){
     body{
-        background-color: lightgray;
+        background-color: gray;
     }
 }

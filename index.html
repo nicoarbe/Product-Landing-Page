@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/cd2331958e.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="./img/favicon.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/faviconacc.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -16,88 +16,109 @@
 
 <body>
     <header id="header">
-        <div clase="container-fluid">
+        <nav id="nav-bar" class="navbar text-center align-middle navbar-expand-lg navbar-light bg-light">
             <div class="row">
                 <div class="col-2">
-                    <img id="header-img" src="./images/atravex transparencia.png" class="img-fluid" alt="logo">
+                    <img id="header-img" src="./images/atravextrans.png" class="img-fluid imglogo" alt="logo">
                 </div>
                 <div class="col-7"></div>
                 <div class="col-3">
-                    <nav id="nav-bar" class="navbar navbar-expand-lg navbar-light bg-light">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mr-auto">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#turismoaccesible">Turismo Accesible</a>
-                                </li>
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#experiencias">Experiencias</a>
-                                </li>
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#contactanos">Contáctanos</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#turismoaccesible" alt="Turismo Accesible">Turismo
+                                    Accesible</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#experiencias" alt="Experiencias">Experiencias</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contactanos" alt="Contáctanos">Contáctanos</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
+        </nav>
     </header>
     <main>
         <section id="turismoaccesible">
             <div class="row turacc">
                 <div class="col-sm-3 col-md-3 col-lg-3"></div>
                 <div class="col-sm-6 col-md-6 col-lg-6">
+                    <h2 class="mb-3">¿Qué significa Turismo Accesible?</h2>
                     <div class="embed-responsive embed-responsive-4by3">
                         <iframe id="video" width="717" height="404" src="https://www.youtube.com/embed/ixGRkYqX5cs"
                             frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
+                            allowfullscreen class="videoacc"></iframe>
                     </div>
-                    <div class="col-sm-3 col-md-3 col-lg-3"></div>
                 </div>
+                <div class="col-sm-3 col-md-3 col-lg-3"></div>
             </div>
-        </section>
-        <section>
-            
         </section>
         <section id="experiencias">
             <div class="row experience">
-                <div class="col-8"></div>
-                <ul>
-                    <li>
+                <div class="col-3"></div>
+                <div class="col-6 exp">
+                    <div>
+                        <i class="fas fa-utensils"></i>
+                        <i class="fas fa-glass-cheers"></i>
+                    </div>
+                    <div>
                         <h4>Cultural-Gastronómico</h4>
-                        <p>Llévate a Medellín en el paladar degustando los diferentes sabores de nuestra gastronomía
+                        <p class="text-justify">Llévate a Medellín en el paladar degustando los diferentes sabores de
+                            nuestra gastronomía
                             tradicional, deléitate con los dulces y postres cuyas recetas han pasado de generación en
                             generación.</p>
-                    </li>
-                    <li>
+                    </div>
+                    <div>
+                        <i class="fas fa-tree"></i>
+                        <i class="fas fa-landmark"></i>
+                    </div>
+                    <div>
                         <h4>Parques y Museos</h4>
-                        <p>Diviértete recorriendo las calles de la ciudad con zonas accesibles en sus diferentes
+                        <p class="text-justify">Diviértete recorriendo las calles de la ciudad con zonas accesibles en
+                            sus diferentes
                             comunas, siente la energía del local y déjate contagiar de su alegría, amabilidad e
                             idiosincrasia.</p>
-                    </li>
-                    <li>
+                    </div>
+                    <div>
+                        <i class="fas fa-school"></i>
+                        <i class="fas fa-monument"></i>
+                    </div>
+                    <div>
                         <h4>Centro Histórico</h4>
-                        <p>Ven y vive la cultura, transformación, arquitectura y movilización de Medellín desde tus
+                        <p class="text-justify">Ven y vive la cultura, transformación, arquitectura y movilización de
+                            Medellín desde tus
                             propios sentidos, donde no sólo te llevarás a Medellín en fotos y recuerdos sino en tu
                             corazón, disfruta a Medellín ConSentido.</p>
-                    </li>
-                </ul>
+                    </div>
+                </div>
+                <div class="col-3"></div>
             </div>
+        </section>
+        <section id="contactanos">
             <div class="row">
-                <div class="col-4">
-                    <form id="form" id="contactanos" action="https://www.freecodecamp.com/email-submit">
-                        <label for="email" id="email-label">¿Quieres saber más de turismo accesible?</label>
-                        <br><input id="email" name="email" class="box" type="email"
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <form id="form" action="https://www.freecodecamp.com/email-submit"></form>
+                    <div class="form mb-5">
+                        <label class="pb-4" for="email" id="email-label">
+                            <h4><strong>¿Quieres saber más de turismo accesible?</strong></h4>
+                        </label>
+                        <input type="email" id="email" name="email" class="form-control" aria-describedby="emailHelp"
                             placeholder="Ingresa aquí tu correo"></br>
-                        <input id="submit" type="submit" value="Enviar">
+                        <input id="submit" type="submit" class="btn btn-success btn-lg btn-block" value="Enviar">
+                    </div>
                     </form>
                 </div>
+                <div class="col-3"></div>
             </div>
         </section>
     </main>
@@ -111,7 +132,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
-
 </body>
 
 </html>
